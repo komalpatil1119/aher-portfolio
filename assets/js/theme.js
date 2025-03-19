@@ -136,15 +136,15 @@ Description: Kimono - Photography Agency
         new WOW().init();
         
         /* FULLSCREEN SWIPER*/
-        $(window).resize(function(){
-            var height = $(window).height();
-            // var width  = $(window).width();
-            $(' .wptb-slider.style2 .swiper-container, .wptb-slider.style3 .swiper-container,.wptb-slider.style5 .swiper-container').height(height);
-            $('.wptb-slider.style2 .swiper-slide, .wptb-slider.style3 .swiper-slide, .wptb-slider.style5 .swiper-slide').height(height);
-            // $('.wptb-slider .swiper-container, .wptb-slider .swiper-slide').width(width);
+        // $(window).resize(function(){
+        //     var height = $(window).height();
+          
+        //     $(' .wptb-slider.style2 .swiper-container, .wptb-slider.style3 .swiper-container,.wptb-slider.style5 .swiper-container').height(height);
+        //     $('.wptb-slider.style2 .swiper-slide, .wptb-slider.style3 .swiper-slide, .wptb-slider.style5 .swiper-slide').height(height);
+     
 
-        })
-        $(window).resize(); 
+        // })
+        // $(window).resize(); 
 
 
         // Main Slider One
