@@ -1658,6 +1658,6 @@ height: 75vh;
 }
 @media screen and (max-width: 600px) {
     .wptb-slider.style2 {
-        height: 50vh;
-            }
+        height: 50dvh; /* More stable on Android */
+    }
 }
