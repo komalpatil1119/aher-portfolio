@@ -1656,3 +1656,8 @@ height: 75vh;
     padding-top: 50px;
     padding-bottom: 150px;
 }
+@media screen and (max-width: 600px) {
+    .wptb-slider.style2 {
+        height: 50vh;
+            }
+}
